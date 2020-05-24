@@ -46,7 +46,7 @@ python manage.py crawl
 
 ##### Install the Dependencies:
 ```bash
-npm Install
+npm install
 ```
 
 ##### Start the Server:
