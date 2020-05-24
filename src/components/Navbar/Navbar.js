@@ -24,7 +24,7 @@ const Navbar = () => {
           </li>
           <li class="nav-item">
             <Link className="nav-link text-white ml-12" to="/news">
-              COVID-19 Latest News
+              CoronoVirus Live Cases - INDIA
             </Link>
           </li>
         </ul>
