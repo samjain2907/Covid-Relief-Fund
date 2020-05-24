@@ -1,0 +1,132 @@
+.card2 {
+  width: 25rem;
+  border-width: 4px;
+  border-color: black;
+  border-style: double;
+}
+.card2:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card2-body {
+  padding: 1rem 0rem !important;
+  position: absolute;
+}
+
+.card2-title {
+  margin: 12px;
+  padding-top: 5px;
+}
+.card3-title {
+  margin: 12px;
+  padding-top: 25px;
+}
+
+.list {
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.card2-text {
+  font-size: 1.02rem;
+}
+
+.container-fluid2 .row {
+  padding-top: 6rem;
+}
+
+.overflow2 {
+  overflow: hidden;
+}
+.card2-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+}
+
+.card2-img-top:hover {
+  transform: scale(1.3);
+}
+.ngo-logo {
+  width: 80px;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  border-radius: 100%;
+}
+.btn2 {
+  position: absolute;
+  left: 145px;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.card3 {
+  width: 25rem;
+  border-width: 4px;
+  border-color: black;
+  border-style: double;
+  position: absolute;
+  top: 600px;
+}
+.card3:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card3-body {
+  padding: 6rem 0rem !important;
+  position: absolute;
+  top: 150px;
+}
+
+.card3-title {
+  margin: 12px;
+  padding-top: 5px;
+}
+.card4-title {
+  margin: 12px;
+  padding-top: 25px;
+}
+
+.list1 {
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.card3-text {
+  font-size: 1.02rem;
+}
+
+.container-fluid3 .row {
+  padding-top: 6rem;
+}
+
+.overflow3 {
+  overflow: hidden;
+}
+.card3-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+}
+
+.card3-img-top:hover {
+  transform: scale(1.3);
+}
+.ngo-logo1 {
+  width: 80px;
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  border-radius: 100%;
+}
+.btn3 {
+  position: absolute;
+  left: 145px;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+}
