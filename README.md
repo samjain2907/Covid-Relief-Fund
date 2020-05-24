@@ -42,6 +42,11 @@ python manage.py runserver
 ```bash
 python manage.py crawl
 ```
+##### For Updating Map Data:
+```bash
+python Mapfile/mapfile.py
+```
+
 ### Initialise the Project(Frontend);
 
 ##### Install the Dependencies:
