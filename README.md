@@ -30,20 +30,8 @@ pip install -r requirements.txt
 ```
 NOTE: After installing dependencies, pip-tools is also installed. You can now use it to manage package dependencies of your project.
 
-Add a new package to requirements.txt and run the following command to auto-update requirements.txt file
-```bash
-pip freeze > requirements.txt
-```
-
-Run the following command to sync your virtualenv
-```bash
-pip-sync
-```
- This will install/upgrade/uninstall everything necessary to match the requirements.txt contents.
-
 ##### Migrate, Create a Superuser, and Run the Server:
 ```bash
-python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
