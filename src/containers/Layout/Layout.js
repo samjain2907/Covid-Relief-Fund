@@ -8,6 +8,7 @@ import Register from "../Register/Register";
 
 //import NewsContainer from "../NewsContainer/NewsContainer";
 import Organisations from "../../components/Organisations/Organisations";
+import Map from "../../components/Map/Map";
 
 class Layout extends Component {
   render() {
@@ -18,6 +19,7 @@ class Layout extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/organisations" component={Organisations} />
           <Route path="/register" component={Register} />
+          <Route path="/map" component={Map} />
         </BrowserRouter>
       </div>
     );

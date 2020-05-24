@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li class="nav-item">
-            <Link className="nav-link text-white ml-12" to="/news">
+            <Link className="nav-link text-white ml-12" to="/map">
               CoronoVirus Live Cases - INDIA
             </Link>
           </li>
