@@ -41,7 +41,7 @@ const card = (props) => {
         </div>
       </div>
 
-      <div className="card3 text-center shadow">
+      {/* <div className="card3 text-center shadow">
         <div className="overflow3">
           <img src={props.imgsrc} alt="image" className="card3-img-top" />
         </div>
@@ -72,8 +72,8 @@ const card = (props) => {
           <button type="button" class="btn3 btn-danger" href="#">
             Donate Now
           </button>
-        </div>
-      </div>
+        </div>  
+      </div>  */}
     </React.Fragment>
   );
 };
