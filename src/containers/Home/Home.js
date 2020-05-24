@@ -27,19 +27,31 @@ class Home extends React.Component {
         <div className="container-fluid d-flex justify-content-center">
           <div className="row">
             <div className="col-md-4">
-              <Card imgsrc={img1} title="Homeless" data="Hello" />
+              <Card
+                imgsrc={img1}
+                title="Homeless"
+                data="People have been left homeless"
+              />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img2} title="No Job" data="Hello" />
+              <Card
+                imgsrc={img2}
+                title="No Job"
+                data="They have no jobs due to the lockdown"
+              />
             </div>
             <div className="col-md-4">
-              <Card imgsrc={img3} title="No Food!! " data="Hello" />
+              <Card
+                imgsrc={img3}
+                title="No Food!! "
+                data="They even don't have food to eat"
+              />
             </div>
           </div>
         </div>
 
         <div className="container mt-5">
-          <h1>Enter Text</h1>
+          <h1>Your donation can help in many ways!</h1>
           <hr />
           <div className="card1">
             <div className="row">
