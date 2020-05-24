@@ -1,0 +1,13 @@
+h1 {
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+input {
+  position: absolute;
+  left: 30px;
+  color: black;
+}
