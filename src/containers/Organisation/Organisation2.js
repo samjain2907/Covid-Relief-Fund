@@ -49,10 +49,17 @@ class Organisation2 extends React.Component {
     let ngoWebsite2 = this.state.ngo_website;
     let ngoContact2 = this.state.ngo_contact;
     let ngoLocation2 = this.state.ngo_location;
-
+    const container2 = {
+      position: "absolute",
+      top: "0px",
+      left: "670px",
+    };
     return (
       <React.Fragment>
-        <div className="container-fluid3 d-flex justify-content-center">
+        <div
+          className="container-fluid2 d-flex justify-content-center"
+          style={container2}
+        >
           <div className="row">
             <div className="col-md-4">
               <Card
