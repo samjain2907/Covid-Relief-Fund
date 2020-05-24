@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 import Register from "../Register/Register";
 
-import NewsContainer from "../NewsContainer/NewsContainer";
+//import NewsContainer from "../NewsContainer/NewsContainer";
 import Organisation from "../Organisation/Organisation";
 
 class Layout extends Component {
@@ -18,7 +18,6 @@ class Layout extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/organisations" component={Organisation} />
           <Route path="/register" component={Register} />
-          <Route path="/news" component={NewsContainer} />
         </BrowserRouter>
       </div>
     );
