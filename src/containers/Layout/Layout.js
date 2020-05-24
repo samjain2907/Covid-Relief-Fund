@@ -7,7 +7,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Register from "../Register/Register";
 
 //import NewsContainer from "../NewsContainer/NewsContainer";
-import Organisation from "../Organisation/Organisation";
+import Organisations from "../../components/Organisations/Organisations";
 
 class Layout extends Component {
   render() {
@@ -16,7 +16,7 @@ class Layout extends Component {
         <BrowserRouter>
           <Navbar />
           <Route path="/" exact component={Home} />
-          <Route path="/organisations" component={Organisation} />
+          <Route path="/organisations" component={Organisations} />
           <Route path="/register" component={Register} />
         </BrowserRouter>
       </div>
