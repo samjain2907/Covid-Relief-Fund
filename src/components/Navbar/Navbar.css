@@ -1,0 +1,15 @@
+nav {
+  min-height: 8vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.navbar-brand {
+  width: 110px;
+  margin-left: 70px;
+  position: absolute;
+  padding: 5px;
+}
+li {
+  padding-right: 110px;
+}
