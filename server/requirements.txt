@@ -22,7 +22,7 @@ idna==2.8
 incremental==17.5.0
 ipaddr==2.2.0
 lockfile==0.12.2
-lxml==4.5.1
+lxml==4.6.2
 msgpack==0.6.2
 packaging==20.3
 parsel==1.6.0
