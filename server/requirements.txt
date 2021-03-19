@@ -15,7 +15,7 @@ distlib==0.3.0
 distro==1.4.0
 Django==3.0.7
 django-cors-headers==3.3.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 html5lib==1.0.1
 hyperlink==19.0.0
 idna==2.8
