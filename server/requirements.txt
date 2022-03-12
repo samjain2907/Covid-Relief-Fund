@@ -27,7 +27,7 @@ msgpack==0.6.2
 packaging==20.3
 parsel==1.6.0
 pep517==0.8.2
-Pillow==7.1.2
+Pillow==9.0.1
 progress==1.5
 Protego==0.1.16
 pyasn1==0.4.8
